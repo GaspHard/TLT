@@ -703,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 863ms :: artifacts dl 62ms
+[debug] :: resolution report :: resolve 1148ms :: artifacts dl 51ms
 [debug] 	report for default#tlt$sbt_2.11;1.0 default produced in /Users/Gaspard/Documents/TLT/target/resolution-cache/reports/default-tlt$sbt_2.11-default.xml
-[debug] 	resolve done (863ms resolve - 62ms download)
+[debug] 	resolve done (1148ms resolve - 51ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#tlt$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1069,6 +1069,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 209ms :: artifacts dl 39ms
+[debug] :: resolution report :: resolve 198ms :: artifacts dl 53ms
 [debug] 	report for default#tlt$sources_2.11;1.0 default produced in /Users/Gaspard/Documents/TLT/target/resolution-cache/reports/default-tlt$sources_2.11-default.xml
-[debug] 	resolve done (209ms resolve - 39ms download)
+[debug] 	resolve done (198ms resolve - 53ms download)

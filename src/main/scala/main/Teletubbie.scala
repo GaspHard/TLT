@@ -19,12 +19,15 @@ class Teletubbie(symbol: String) {
   var ask = 0.0
   var bid = 0.0
   var time = (0, 0)
+
   // we could add some more attributes (and don't forget to update FileManager accordingly)
 
   //makes a directory for the stock
   FileManager.makeDir(symbol)
   //downloads data and puts it in the directory
   FileManager.dataDownload(symbol)
+  //Teletubbie variables are initialized
+  csvToVar
 
   //simply updates the intra-day csv file
   def updateData : Unit = {
@@ -32,7 +35,7 @@ class Teletubbie(symbol: String) {
   }
 
   //reads the intra-day csv file and puts data to respective variable
-  def csvToVar : Unit = {
+  def csvToVar : Unit = synchronized{ // not sure if the synchronized realy works
     val bufferedSource = Source.fromFile(s"$symbol/$symbol.csv")
     val dataLine = bufferedSource.getLines.next
     val cols = dataLine.split(",").map(_.trim)
@@ -51,7 +54,7 @@ class Teletubbie(symbol: String) {
     val bidS = f"Bid: $bid%-14s\n"
     val timeS = f"Time: $time%-14s\n"
     val data = askS + bidS + timeS
-    header + data
+    header + data + "\n"
   }
 
   //def intradayData = URLContentManipulator.parseHTML(url)

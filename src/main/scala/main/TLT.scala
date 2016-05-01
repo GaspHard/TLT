@@ -1,6 +1,5 @@
 package main
-
-import utils.Executor
+import utils._
 
 /**
   * Trade Like Teletubbies (TLT)
@@ -12,6 +11,7 @@ import utils.Executor
 object TLT extends App{
   val ABBTeletubbie = new Teletubbie("ABBN")
   val CSTeletubbie = new Teletubbie("CSGN")
+  val LilBot = new TradingBot(List(ABBTeletubbie, CSTeletubbie))
   val TeletubbieMaster = new Executor(List(ABBTeletubbie, CSTeletubbie))
-  TeletubbieMaster.executionLoop
+  parallel(TeletubbieMaster.run, LilBot.run())
 }
