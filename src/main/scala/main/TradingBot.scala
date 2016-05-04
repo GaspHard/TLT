@@ -2,7 +2,8 @@ package main
 
 import info.mukel.telegram.bots.{Polling, Commands, Utils, TelegramBot}
 
-/**
+/** Little bot that sends data on request
+  *
   * Created by Gaspard on 01/05/16.
   */
 class TradingBot(teletubbies: List[Teletubbie]) extends TelegramBot(Utils.tokenFromFile("../Trading/bot_token.txt")) with Polling with Commands{

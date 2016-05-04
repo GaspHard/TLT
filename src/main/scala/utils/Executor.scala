@@ -4,7 +4,7 @@ import scala.collection.immutable.List
 import main.Teletubbie
 
 
-/** An Executor is a class that executes periodic data fetching
+/** An Executor is a class that executes periodic data fetching/computations
   *
   * Created by Gaspard on 29/04/16.
   */

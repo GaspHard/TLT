@@ -48,6 +48,7 @@ class Teletubbie(symbol: String) {
     bufferedSource.close
   }
 
+  //makes the Teletubbie presentable
   override def toString : String = this.synchronized{
     val header = s"$name Teletubbie News:\n"
     val askS = f"Ask: $ask%-14s\n"
