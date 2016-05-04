@@ -30,12 +30,12 @@ class Teletubbie(symbol: String) {
   csvToVar
 
   //simply updates the intra-day csv file
-  def updateData : Unit = {
+  def updateData : Unit = this.synchronized{
     FileManager.intraDayDataDownload(symbol)
   }
 
   //reads the intra-day csv file and puts data to respective variable
-  def csvToVar : Unit = synchronized{ // not sure if the synchronized realy works
+  def csvToVar : Unit = this.synchronized{ // not sure if the synchronized realy works
     val bufferedSource = Source.fromFile(s"$symbol/$symbol.csv")
     val dataLine = bufferedSource.getLines.next
     val cols = dataLine.split(",").map(_.trim)
@@ -48,7 +48,7 @@ class Teletubbie(symbol: String) {
     bufferedSource.close
   }
 
-  override def toString : String = {
+  override def toString : String = this.synchronized{
     val header = s"$name Teletubbie News:\n"
     val askS = f"Ask: $ask%-14s\n"
     val bidS = f"Bid: $bid%-14s\n"

@@ -22,6 +22,6 @@ class Executor(teletubbies: List[Teletubbie]) {
   }
 
   def run = {
-    timer.schedule(intraDayTask, 1200000L, 1200000L)
+    timer.schedule(intraDayTask, 10000L, 10000L) //1200000
   }
 }
