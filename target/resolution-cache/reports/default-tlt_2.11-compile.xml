@@ -7,15 +7,115 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160430004622"/>
+		date="20160515181543"/>
 	<dependencies>
+		<module organisation="org.slf4j" name="slf4j-simple">
+			<revision name="1.6.4" status="release" pubdate="20111031234548" resolver="jcenter" artresolver="jcenter" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<metadata-artifact status="successful" details="" size="1465" time="246" location="/Users/Gaspard/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.6.4.xml" searched="true" original-local-location="/Users/Gaspard/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.6.4.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.pom"/>
+				<caller organisation="default" name="tlt_2.11" conf="compile" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-simple" type="jar" ext="jar" status="successful" details="" size="7662" time="224" location="/Users/Gaspard/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.6.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.4-SNAPSHOT" status="integration" pubdate="20160513230144" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2841" time="0" location="/Users/Gaspard/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom"/>
+				<caller organisation="default" name="tlt_2.11" conf="compile" rev="2.4-SNAPSHOT" rev-constraint-default="2.4-SNAPSHOT" rev-constraint-dynamic="2.4-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="3232454" time="0" location="/Users/Gaspard/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4-SNAPSHOT.jar">
+						<origin-location is-local="false" location="http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.11">
+			<revision name="0.7.0" status="release" pubdate="20150901015044" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2910" time="0" location="/Users/Gaspard/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="default, compile, runtime, master" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="2.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.11" type="bundle" ext="jar" status="no" details="" size="582358" time="0" location="/Users/Gaspard/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.0" status="release" pubdate="20150508174600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2749" time="0" location="/Users/Gaspard/.ivy2/cache/com.typesafe/config/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="default, compile, runtime, master" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="2.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="277782" time="0" location="/Users/Gaspard/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.enragedginger" name="akka-quartz-scheduler_2.11">
+			<revision name="1.5.0-akka-2.4.x" status="release" pubdate="20160307030748" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/enragedginger/akka-quartz-scheduler" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3632" time="0" location="/Users/Gaspard/.ivy2/cache/com.enragedginger/akka-quartz-scheduler_2.11/ivy-1.5.0-akka-2.4.x.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/enragedginger/akka-quartz-scheduler_2.11/1.5.0-akka-2.4.x/akka-quartz-scheduler_2.11-1.5.0-akka-2.4.x.pom"/>
+				<caller organisation="default" name="tlt_2.11" conf="compile" rev="1.5.0-akka-2.4.x" rev-constraint-default="1.5.0-akka-2.4.x" rev-constraint-dynamic="1.5.0-akka-2.4.x" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-quartz-scheduler_2.11" type="jar" ext="jar" status="no" details="" size="86456" time="0" location="/Users/Gaspard/.ivy2/cache/com.enragedginger/akka-quartz-scheduler_2.11/jars/akka-quartz-scheduler_2.11-1.5.0-akka-2.4.x.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/enragedginger/akka-quartz-scheduler_2.11/1.5.0-akka-2.4.x/akka-quartz-scheduler_2.11-1.5.0-akka-2.4.x.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.quartz-scheduler" name="quartz">
+			<revision name="2.2.2" status="release" pubdate="20151013150606" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<metadata-artifact status="no" details="" size="4540" time="0" location="/Users/Gaspard/.ivy2/cache/org.quartz-scheduler/quartz/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.pom"/>
+				<caller organisation="com.enragedginger" name="akka-quartz-scheduler_2.11" conf="default, compile, runtime, master" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="1.5.0-akka-2.4.x"/>
+				<artifacts>
+					<artifact name="quartz" type="jar" ext="jar" status="no" details="" size="660382" time="0" location="/Users/Gaspard/.ivy2/cache/org.quartz-scheduler/quartz/jars/quartz-2.2.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404131200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<metadata-artifact status="no" details="" size="4573" time="0" location="/Users/Gaspard/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="org.slf4j" name="slf4j-simple" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.6.4"/>
+				<caller organisation="org.quartz-scheduler" name="quartz" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="2.2.2"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="29257" time="0" location="/Users/Gaspard/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.6.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.7"/>
+				<caller organisation="org.slf4j" name="slf4j-simple" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.6.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="c3p0" name="c3p0">
+			<revision name="0.9.1.1" status="release" pubdate="20070420202230" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://c3p0.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="GNU LESSER GENERAL PUBLIC LICENSE" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2573" time="0" location="/Users/Gaspard/.ivy2/cache/c3p0/c3p0/ivy-0.9.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1.pom"/>
+				<caller organisation="org.quartz-scheduler" name="quartz" conf="compile, runtime" rev="0.9.1.1" rev-constraint-default="0.9.1.1" rev-constraint-dynamic="0.9.1.1" callerrev="2.2.2"/>
+				<artifacts>
+					<artifact name="c3p0" type="jar" ext="jar" status="no" details="" size="608376" time="0" location="/Users/Gaspard/.ivy2/cache/c3p0/c3p0/jars/c3p0-0.9.1.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="info.mukel" name="telegrambot4s_2.11">
-			<revision name="1.0.3-SNAPSHOT" status="integration" pubdate="20160423155524" resolver="sonatype-snapshots" artresolver="sonatype-snapshots" homepage="https://github.com/mukel/telegrambot4s" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+			<revision name="1.0.3-SNAPSHOT" status="integration" pubdate="20160423155524" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mukel/telegrambot4s" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1959" time="483" location="/Users/Gaspard/.ivy2/cache/info.mukel/telegrambot4s_2.11/ivy-1.0.3-SNAPSHOT.xml" searched="true" original-local-location="/Users/Gaspard/.ivy2/cache/info.mukel/telegrambot4s_2.11/ivy-1.0.3-SNAPSHOT.xml.original" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.pom"/>
+				<metadata-artifact status="no" details="" size="2991" time="0" location="/Users/Gaspard/.ivy2/cache/info.mukel/telegrambot4s_2.11/ivy-1.0.3-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.pom"/>
 				<caller organisation="default" name="tlt_2.11" conf="compile" rev="1.0.3-SNAPSHOT" rev-constraint-default="1.0.3-SNAPSHOT" rev-constraint-dynamic="1.0.3-SNAPSHOT" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="telegrambot4s_2.11" type="jar" ext="jar" status="successful" details="" size="240607" time="1147" location="/Users/Gaspard/.ivy2/cache/info.mukel/telegrambot4s_2.11/jars/telegrambot4s_2.11-1.0.3-SNAPSHOT.jar">
+					<artifact name="telegrambot4s_2.11" type="jar" ext="jar" status="no" details="" size="240607" time="0" location="/Users/Gaspard/.ivy2/cache/info.mukel/telegrambot4s_2.11/jars/telegrambot4s_2.11-1.0.3-SNAPSHOT.jar">
 						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.jar"/>
 					</artifact>
 				</artifacts>
@@ -171,10 +271,12 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.11.8" status="release" pubdate="20160309051604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="0">
+			<revision name="2.11.8" status="release" pubdate="20160309051604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/Gaspard/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.4-SNAPSHOT"/>
 				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.7.0"/>
 				<caller organisation="org.json4s" name="json4s-native_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="3.2.11"/>
 				<caller organisation="org.scalaj" name="scalaj-http_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.2.0"/>
 				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="2.11.2"/>
@@ -182,6 +284,7 @@
 				<caller organisation="info.mukel" name="telegrambot4s_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0.3-SNAPSHOT"/>
 				<caller organisation="org.json4s" name="json4s-core_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="3.2.11"/>
 				<caller organisation="org.scalatest" name="scalatest_2.11" conf="compile, runtime" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="2.2.4"/>
+				<caller organisation="com.enragedginger" name="akka-quartz-scheduler_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.5.0-akka-2.4.x"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.11.0"/>
 				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.1"/>
 				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.11.0"/>
@@ -191,6 +294,12 @@
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/Users/Gaspard/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.11.6" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.11.8"/>
+				<caller organisation="com.enragedginger" name="akka-quartz-scheduler_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.5.0-akka-2.4.x"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 			<revision name="2.11.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="-1">
@@ -224,6 +333,7 @@
 				<caller organisation="info.mukel" name="telegrambot4s_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0.3-SNAPSHOT"/>
 				<caller organisation="default" name="tlt_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0"/>
 				<caller organisation="org.scalatest" name="scalatest_2.11" conf="compile, runtime" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="2.2.4"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.7.0"/>
 				<caller organisation="org.json4s" name="json4s-native_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="3.2.11"/>
 				<caller organisation="org.scalaj" name="scalaj-http_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.2.0"/>
 				<artifacts>

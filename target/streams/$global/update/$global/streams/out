@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for default#tlt_2.11;1.0 [compile]
 [debug] == resolving dependencies default#tlt_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@574a80df
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2322ce7
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -40,21 +40,8 @@
 [debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.pom
 [debug] 	sonatype-snapshots: found md file for info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT
 [debug] 		=> https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.pom (1.0.3-SNAPSHOT)
-[debug] downloading https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.pom ...
-[debug] 	sonatype-snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.pom
-[debug] 	sonatype-snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.pom.sha1
-[debug] sha1 OK for https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.pom
-[debug] 	[SUCCESSFUL ] info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT!telegrambot4s_2.11.pom(pom.original) (483ms)
-[debug] 		tried /Users/Gaspard/.ivy2/local/info.mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/jars/telegrambot4s_2.11.jar
-[debug] 	maven-metadata not available: https://jcenter.bintray.com/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/maven-metadata.xml
-[debug] 		tried https://jcenter.bintray.com/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.jar
-[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.jar
-[debug] 	maven-metadata not available: https://repo1.maven.org/maven2/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/maven-metadata.xml
-[debug] 		tried https://repo1.maven.org/maven2/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.jar
-[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.jar
-[debug] info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT is changing, but has not changed: will trust cached artifacts if any
-[debug] 	found info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT in sonatype-snapshots
+[debug] 	default-cache: revision in cache (not updated): info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT
+[debug] 	found info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT in sbt-chain
 [debug] == resolving dependencies default#tlt_2.11;1.0->info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT [compile->runtime]
 [debug] == resolving dependencies default#tlt_2.11;1.0->info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT [compile->compile]
 [debug] == resolving dependencies info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
@@ -255,6 +242,168 @@
 [debug] == resolving dependencies info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->runtime(*)]
 [debug] == resolving dependencies info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->compile]
 [debug] == resolving dependencies default#tlt_2.11;1.0->info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->default(compile)]
+[info] Resolving com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x ...
+[debug] sbt-chain: Checking cache for: dependency: com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x
+[debug] 	found com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x in sbt-chain
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->compile]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->master(compile)]
+[info] Resolving org.quartz-scheduler#quartz;2.2.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.quartz-scheduler#quartz;2.2.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.quartz-scheduler#quartz;2.2.2
+[debug] 	found org.quartz-scheduler#quartz;2.2.2 in sbt-chain
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->compile(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [compile->master(compile)]
+[info] Resolving c3p0#c3p0;0.9.1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: c3p0#c3p0;0.9.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: c3p0#c3p0;0.9.1.1
+[debug] 	found c3p0#c3p0;0.9.1.1 in sbt-chain
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
+[info] Resolving org.slf4j#slf4j-api;1.7.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.7
+[debug] 	found org.slf4j#slf4j-api;1.7.7 in sbt-chain
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->compile]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [runtime->compile]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT ...
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT {compile=[default(compile)]}
+[debug] don't use cache for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT: changing=true
+[info] Resolving com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT {compile=[default(compile)]}
+[debug] don't use cache for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT: changing=true
+[debug] don't use cache for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT: changing=true
+[debug] 		tried /Users/Gaspard/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.4-SNAPSHOT/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT
+[debug] don't use cache for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT: changing=true
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml
+[debug] 	maven-metadata not available: https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom
+[debug] 	jcenter: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT
+[debug] don't use cache for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT: changing=true
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml
+[debug] 	maven-metadata not available: https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom
+[debug] 	public: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT
+[debug] don't use cache for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT: changing=true
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml
+[debug] 	maven-metadata not available: https://oss.sonatype.org/content/repositories/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom
+[debug] 	sonatype-snapshots: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT
+[debug] don't use cache for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT: changing=true
+[debug] CLIENT ERROR: Not Found url=http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml
+[debug] 	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/maven-metadata.xml
+[debug] 		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom
+[debug] 	Akka Snapshot Repository: found md file for com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT
+[debug] 		=> http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.11/2.4-SNAPSHOT/akka-actor_2.11-2.4-SNAPSHOT.pom (2.4-SNAPSHOT)
+[debug] 	default-cache: revision in cache (not updated): com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT
+[debug] 	found com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT in sbt-chain
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master(compile)]
+[info] Resolving com.typesafe#config;1.3.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe#config;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
+[debug] 	found com.typesafe#config;1.3.0 in sbt-chain
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)]
+[info] Resolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0
+[debug] 	found org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 in sbt-chain
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->default(compile)]
+[info] Resolving org.slf4j#slf4j-simple;1.6.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-simple;1.6.4 {compile=[default(compile)]}
+[info] Resolving org.slf4j#slf4j-simple;1.6.4 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-simple;1.6.4 {compile=[default(compile)]}
+[debug] 		tried /Users/Gaspard/.ivy2/local/org.slf4j/slf4j-simple/1.6.4/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.slf4j#slf4j-simple;1.6.4
+[debug] 		tried https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.pom
+[debug] 	jcenter: found md file for org.slf4j#slf4j-simple;1.6.4
+[debug] 		=> https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.pom (1.6.4)
+[debug] downloading https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.pom
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-simple;1.6.4!slf4j-simple.pom(pom.original) (246ms)
+[info] Resolving org.slf4j#slf4j-parent;1.6.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.6.4 {}
+[info] Resolving org.slf4j#slf4j-parent;1.6.4 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-parent;1.6.4 {}
+[debug] 		tried /Users/Gaspard/.ivy2/local/org.slf4j/slf4j-parent/1.6.4/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.slf4j#slf4j-parent;1.6.4
+[debug] 		tried https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+[debug] 	jcenter: found md file for org.slf4j#slf4j-parent;1.6.4
+[debug] 		=> https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom (1.6.4)
+[debug] downloading https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.pom
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.6.4!slf4j-parent.pom(pom.original) (228ms)
+[debug] 		tried /Users/Gaspard/.ivy2/local/org.slf4j/slf4j-parent/1.6.4/jars/slf4j-parent.jar
+[debug] 		tried https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.jar
+[debug] 		tried http://repo.akka.io/snapshots/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.akka.io/snapshots/org/slf4j/slf4j-parent/1.6.4/slf4j-parent-1.6.4.jar
+[debug] 		tried /Users/Gaspard/.ivy2/local/org.slf4j/slf4j-simple/1.6.4/jars/slf4j-simple.jar
+[debug] 		tried https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar
+[debug] 	found org.slf4j#slf4j-simple;1.6.4 in jcenter
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->compile]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [compile->master(compile)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#tlt_2.11;1.0 [runtime]
 [debug] == resolving dependencies for default#tlt_2.11;1.0 [compile]
@@ -395,6 +544,63 @@
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
 [debug] == resolving dependencies default#tlt_2.11;1.0->info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->compile]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->compile(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [runtime->compile]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [runtime->compile]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->compile]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [compile->master(compile)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#tlt_2.11;1.0 [test]
 [debug] == resolving dependencies for default#tlt_2.11;1.0 [runtime]
@@ -536,6 +742,63 @@
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
 [debug] == resolving dependencies default#tlt_2.11;1.0->info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->compile]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->compile(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [runtime->compile]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [runtime->compile]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->compile]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [compile->master(compile)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#tlt_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -680,6 +943,63 @@
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
 [debug] == resolving dependencies default#tlt_2.11;1.0->info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->compile]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->compile(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [runtime->compile]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [runtime->compile]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->compile]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [compile->master(compile)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->master]
 [debug] == resolving dependencies for default#tlt_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#tlt_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -823,6 +1143,63 @@
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
 [debug] == resolving dependencies default#tlt_2.11;1.0->info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->compile]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->compile(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [runtime->compile]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [runtime->compile]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->compile]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [compile->master(compile)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->master]
 [debug] == resolving dependencies for default#tlt_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#tlt_2.11;1.0 [test-internal]
@@ -966,6 +1343,63 @@
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
 [debug] == resolving dependencies default#tlt_2.11;1.0->info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->compile]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->master(compile)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [compile->compile(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [compile->master(compile)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x->org.quartz-scheduler#quartz;2.2.2 [runtime->compile]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->c3p0#c3p0;0.9.1.1 [runtime->compile]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.quartz-scheduler#quartz;2.2.2->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-java8-compat_2.11;0.7.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->default(compile)]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->runtime]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->compile]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [compile->master(compile)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.6.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.4->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
+[debug] == resolving dependencies default#tlt_2.11;1.0->org.slf4j#slf4j-simple;1.6.4 [compile->master]
 [debug] == resolving dependencies for default#tlt_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#tlt_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'plugin'
@@ -1060,12 +1494,15 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
-[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.jar
-[info] downloading https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.jar ...
-[debug] 	sonatype-snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.jar
-[debug] 	sonatype-snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.jar.sha1
-[debug] sha1 OK for https://oss.sonatype.org/content/repositories/snapshots/info/mukel/telegrambot4s_2.11/1.0.3-SNAPSHOT/telegrambot4s_2.11-1.0.3-SNAPSHOT.jar
-[info] 	[SUCCESSFUL ] info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT!telegrambot4s_2.11.jar (1147ms)
+[debug] 	[NOT REQUIRED] info.mukel#telegrambot4s_2.11;1.0.3-SNAPSHOT!telegrambot4s_2.11.jar
+[debug] 	[NOT REQUIRED] com.enragedginger#akka-quartz-scheduler_2.11;1.5.0-akka-2.4.x!akka-quartz-scheduler_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4-SNAPSHOT!akka-actor_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar
+[info] downloading https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-simple;1.6.4!slf4j-simple.jar (224ms)
 [debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.11;2.2.0!scalaj-http_2.11.jar
 [debug] 	[NOT REQUIRED] org.json4s#json4s-native_2.11;3.2.11!json4s-native_2.11.jar
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)
@@ -1077,12 +1514,17 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] org.quartz-scheduler#quartz;2.2.2!quartz.jar
+[debug] 	[NOT REQUIRED] c3p0#c3p0;0.9.1.1!c3p0.jar
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.7!slf4j-api.jar
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 5521ms :: artifacts dl 1182ms
+[debug] :: resolution report :: resolve 10030ms :: artifacts dl 266ms
 [debug] 	report for default#tlt_2.11;1.0 compile produced in /Users/Gaspard/Documents/TLT/target/resolution-cache/reports/default-tlt_2.11-compile.xml
 [debug] 	report for default#tlt_2.11;1.0 runtime produced in /Users/Gaspard/Documents/TLT/target/resolution-cache/reports/default-tlt_2.11-runtime.xml
 [debug] 	report for default#tlt_2.11;1.0 test produced in /Users/Gaspard/Documents/TLT/target/resolution-cache/reports/default-tlt_2.11-test.xml
@@ -1096,5 +1538,5 @@
 [debug] 	report for default#tlt_2.11;1.0 docs produced in /Users/Gaspard/Documents/TLT/target/resolution-cache/reports/default-tlt_2.11-docs.xml
 [debug] 	report for default#tlt_2.11;1.0 pom produced in /Users/Gaspard/Documents/TLT/target/resolution-cache/reports/default-tlt_2.11-pom.xml
 [debug] 	report for default#tlt_2.11;1.0 scala-tool produced in /Users/Gaspard/Documents/TLT/target/resolution-cache/reports/default-tlt_2.11-scala-tool.xml
-[debug] 	resolve done (5521ms resolve - 1182ms download)
+[debug] 	resolve done (10030ms resolve - 266ms download)
 [info] Done updating.

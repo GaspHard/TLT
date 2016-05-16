@@ -4,7 +4,7 @@
 		module="tlt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160430004621"
+		publication="20160515181542"
 	>
 		<description>
 		TLT
@@ -35,5 +35,8 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="info.mukel" name="telegrambot4s_2.11" rev="1.0.3-SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="com.enragedginger" name="akka-quartz-scheduler_2.11" rev="1.5.0-akka-2.4.x" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.4-SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-simple" rev="1.6.4" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

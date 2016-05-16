@@ -1,9 +1,8 @@
 package main
 
-import java.nio.file.NoSuchFileException
-
 import scala.io._
-import utils.{FileManager, URLContentManipulator}
+import utils.{FileManager}
+import akka.actor._
 
 
 /** A Teletubbie is a stock tracker (for only one stock)
@@ -13,8 +12,17 @@ import utils.{FileManager, URLContentManipulator}
   * Created by Gaspard on 17/04/16.
   */
 
+// companion object
+object Teletubbie {
+  case object UpdateData
+  case object ToString
 
-class Teletubbie(symbol: String) {
+  def props(tickerCode: String) = Props(classOf[Teletubbie],  tickerCode)
+}
+
+class Teletubbie(tickerCode: String) extends Actor{
+  import Teletubbie._
+
   var name = ""
   var ask = 0.0
   var bid = 0.0
@@ -23,20 +31,28 @@ class Teletubbie(symbol: String) {
   // we could add some more attributes (and don't forget to update FileManager accordingly)
 
   //makes a directory for the stock
-  FileManager.makeDir(symbol)
+  FileManager.makeDir(tickerCode)
   //downloads data and puts it in the directory
-  FileManager.dataDownload(symbol)
+  FileManager.dataDownload(tickerCode)
   //Teletubbie variables are initialized
   csvToVar
 
+  def receive = {
+    case UpdateData => {
+      updateData
+      csvToVar
+      println(toString)
+    }
+    case ToString => sender() ! toString
+  }
   //simply updates the intra-day csv file
   def updateData : Unit = this.synchronized{
-    FileManager.intraDayDataDownload(symbol)
+    FileManager.intraDayDataDownload(tickerCode)
   }
 
   //reads the intra-day csv file and puts data to respective variable
-  def csvToVar : Unit = this.synchronized{ // not sure if the synchronized realy works
-    val bufferedSource = Source.fromFile(s"$symbol/$symbol.csv")
+  def csvToVar : Unit = this.synchronized{
+    val bufferedSource = Source.fromFile(s"$tickerCode/$tickerCode.csv")
     val dataLine = bufferedSource.getLines.next
     val cols = dataLine.split(",").map(_.trim)
     name = cols(0)

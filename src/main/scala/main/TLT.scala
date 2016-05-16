@@ -11,10 +11,6 @@ import utils._
 
 
 object TLT extends App{
-  val ABBTeletubbie = new Teletubbie("ABBN")
-  val CSTeletubbie = new Teletubbie("CSGN")
-  val UBSTeletubbie = new Teletubbie("UBSG")
-  val LilBot = new TradingBot(List(ABBTeletubbie, CSTeletubbie, UBSTeletubbie))
-  val TeletubbieMaster = new Executor(List(ABBTeletubbie, CSTeletubbie, UBSTeletubbie))
-  parallel(TeletubbieMaster.run, LilBot.run())
+  val TeletubbieMaster = new Executor(List("ABBN", "CSGN", "UBSG")) //add as many ticker codes you want!
+  TeletubbieMaster.run
 }
