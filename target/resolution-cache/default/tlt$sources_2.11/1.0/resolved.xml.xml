@@ -4,7 +4,7 @@
 		module="tlt$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160515181554"
+		publication="20160517192901"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
