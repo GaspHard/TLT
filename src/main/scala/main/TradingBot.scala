@@ -56,9 +56,11 @@ class TradingBot(teletubbies: List[ActorRef]) extends TelegramBot(Utils.tokenFro
     }
     case Start => {
       unleashedSenders.toList.foreach(s => sendMessage(s, "The market has opened and your Teletubbies are at work"))
+      self ! Run
     }
     case End => {
       unleashedSenders.toList.foreach(s => sendMessage(s, "The market has closed and your Teletubbies are asleep"))
+      self ! Run
     }
   }
 
